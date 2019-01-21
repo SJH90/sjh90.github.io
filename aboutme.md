@@ -1,16 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: 초보 개발자로 시작하기
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+신입 초보 개발자
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### 관심분야
+- 웹 개발 (**FE** / BE)
+- 3D/**VR** (Unity)
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
