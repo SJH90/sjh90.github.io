@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 첫 포스팅
+comments: true
 ---
 
 별 일 없으면 앞으로 평생 사용할 블로그를 작성했다.
