@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 프로젝트 시작
+comments: true
 ---
 
 프로젝트를 본격적으로 시작했다.
@@ -21,3 +22,26 @@ title: 프로젝트 시작
 기간이 일주일이라 많이 빡빡해서 기본적인 기능이나 구현 할 수 있을지 불안하지만, 반면에 정말 오랜만에 진행하는 프로젝트라 재미있을 것 같다는 생각도 든다.
 
 무사히 완성할 수 있었으면 좋겠다.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://sjh90.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
