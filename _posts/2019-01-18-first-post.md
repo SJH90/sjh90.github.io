@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 첫 포스팅
 comments: true
 ---
